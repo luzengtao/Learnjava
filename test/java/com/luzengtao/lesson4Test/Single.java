@@ -14,5 +14,33 @@ public class Single {
         return instance;
     }
 
+    public static void main(String[] args) {
+//       int x = 34.5;
+//       boolean boo = x;
+        int g = 17;
+        int y = g;
+        y = y+10;
+        short s;
+//        s = y;
+        byte b = 3;
+        byte v = b;
+        short n =12;
+//        v = n;
+//        byte k = 128;
+        int p = 3*g+y;
+    Single single = new Single();
+
+     Single [] pets = new Single[7];
+
+     pets [0] = new Single();
+     pets [1] = new Single();
+     pets [2] = new Single();
+     pets [3] = pets[2];
+
+
+
+    }
+
+
 
 }
